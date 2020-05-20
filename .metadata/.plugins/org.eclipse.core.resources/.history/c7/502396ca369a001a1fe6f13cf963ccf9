@@ -1,0 +1,14 @@
+package modul_02;
+
+public class Task02 {
+	
+	public static void main(String[] args) {
+		int i = 123;
+	       int a = i%10; // это 3
+	       int b = i/10;
+	       int c = b%10; // это 2
+	       int d = i/100; // это 1
+	        int num = d + c + a;
+	          	System.out.print(num);
+	 }
+}

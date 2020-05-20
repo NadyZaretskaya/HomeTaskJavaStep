@@ -1,0 +1,18 @@
+package modul_02;
+
+public class Task07 {
+	
+		public static void main(String[] args) {
+		Double summaN = 1500.50;
+		Double SummaF;
+		Double proc = 4.51;
+		int srok = 2;
+		int n=0;
+		SummaF = summaN;
+		While(n<srok){
+		SummaF += summaF * proc;
+		n++;
+		}
+	}
+
+}

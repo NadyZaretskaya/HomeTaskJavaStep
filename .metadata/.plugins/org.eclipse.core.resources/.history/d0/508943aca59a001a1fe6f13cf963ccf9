@@ -1,0 +1,17 @@
+package modul_02;
+
+public class Task11 {
+	
+	static int seconds = 368954862;
+	
+	public static void main(String[] args) {
+		int sec = seconds % 60;
+		int minutes = seconds % 3600 / 60;
+		int hours = seconds % 86400 / 3600;
+		int days = seconds / 86400;
+
+			    System.out.println(days + " дней " + hours + " часов " +  minutes + " минут " + sec + " секунд ");
+			
+	}
+
+}

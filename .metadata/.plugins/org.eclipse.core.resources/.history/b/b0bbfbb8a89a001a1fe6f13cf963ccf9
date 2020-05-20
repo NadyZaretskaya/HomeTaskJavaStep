@@ -1,0 +1,21 @@
+package modul_02;
+
+public class Task11 {
+	
+	static int seconds = 29_689_456;
+	
+	public static void main(String[] args) {
+		int sec, minutes, hours, days;
+		days = seconds / (60 * 60 * 24);
+		hours = seconds % days / 3600;
+		minutes = seconds % 3600 / 60;
+		sec = seconds % 60;
+		
+		
+		
+
+			    System.out.println("До Нового Года осталось " + days + " дней " + hours + " часов " +  minutes + " минут " + sec + " секунд ");
+			
+	}
+
+}
