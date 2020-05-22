@@ -1,0 +1,45 @@
+package modul_02;
+
+import java.util.Scanner;
+
+
+public class Task12 {
+
+	public static void main(String[] args) {
+		int puples;
+		int pie;
+		double milk;
+		double lightweightPerсent;
+		double lightweightPuples;
+		try (Scanner scanner = new Scanner(System.in)){
+				System.out.println("Укажите колличество первоклассников:");
+	        		puples = scanner.nextInt();
+	        	System.out.println("Укажите процент детей, вес которых менее 30 кг.:");
+	        		lightweightPerсent = scanner.nextInt();	
+		}
+		
+		lightweightPuples = (puples * lightweightPerсent) / 100;
+		lightweightPuples = Math.ceil(lightweightPuples);
+		
+		System.out.println("Колличество учеников, чей вес меньше 30 кг. " + lightweightPuples);	
+			
+		pie = (int)(puples + lightweightPuples);
+		
+		milk = (lightweightPuples * 0.2) / 0.9;
+		
+		System.out.println("Колличество пирожков: " + pie + " шт.");
+		System.out.println("Колличество бутылок молока: " + Math.ceil(milk) + " шт");
+		}
+		
+	}
+	/*Ученикам первого класса дают 1 пирожок. Если вес первоклассника менее 30 кг, дополнительно дают 1 стакан молока и ещё 1 пирожок. В первых классах школы учится n
+учеников. Стакан молока имеет емкость 200 мл, а упаковка
+молока – 0,9 л.
+Написать программу, которая определит количество пакетов молока и пирожков, необходимых каждый день для
+условий:
+ - если в школе 100% всех учеников, у которых вес меньше
+30 кг;
+ - если в школе 60% учеников имеют вес меньше 30 кг.
+- если в школе 1% учеников имеют вес меньше 30 кг.
+(!!!) Учесть, что нельзя купить два с половиной пакета
+молока; можно купить два или три. */

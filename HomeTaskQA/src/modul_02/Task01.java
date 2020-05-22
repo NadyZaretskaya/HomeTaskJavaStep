@@ -9,8 +9,9 @@ public class Task01 {
 			System.out.println("1) " + a);
 		float b = x % y;
 			System.out.println("2) " + b);
-		x *= x;
-			System.out.println("3) " + x);
+		double sqrt = Math.sqrt(x);
+			System.out.println("3) " + sqrt);
+	
 	}
 
 }
