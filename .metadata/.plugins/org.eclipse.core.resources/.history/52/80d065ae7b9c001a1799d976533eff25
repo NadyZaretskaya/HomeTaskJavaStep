@@ -1,0 +1,23 @@
+package modul_3_1;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class Task03 {
+	
+	public static void main(String[] args)  throws IOException {
+		
+		String sNumber;
+		int nNumber;
+		
+			try (BufferedReader reader = new BufferedReader(new InputStreamReader(System.in))) {
+				System.out.println("Укажите номер интересующего вас животного:/n 1 - кошка/n 2 - собака/n 3 - лев/n 4 - ёж/n 5 - курица/n 6 - тигр/n "
+						+ "7 - поросенок/n 8 - корова/n 9 - лошадь/n 10 - овечка");
+			sNumber = reader.readLine();
+			nNumber = Integer.parseInt(sNumber);
+			}
+
+	}
+
+}

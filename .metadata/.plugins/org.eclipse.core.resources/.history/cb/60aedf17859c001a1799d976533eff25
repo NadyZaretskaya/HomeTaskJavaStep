@@ -1,0 +1,11 @@
+package modul_3_1;
+
+public class Task05 {
+	public static void main(String[] args)  {
+		int x = 1933;
+				if (x % 12 == 1)
+		System.out.println("Год Петуха");
+		
+	}
+
+}

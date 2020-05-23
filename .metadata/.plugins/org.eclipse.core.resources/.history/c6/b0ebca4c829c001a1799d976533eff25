@@ -1,0 +1,35 @@
+package modul_3_1;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.Scanner;
+
+public class Task04 {
+	public static void main(String[] args)  {
+		
+		double xCoordinate;
+		double yCoordinate;
+		
+		try (Scanner scanner = new Scanner(System.in)){
+			System.out.println("Укажите координату точки по оси Х: ");
+				xCoordinate = scanner.nextDouble();
+			System.out.println("Укажите координату точки по оси Y: ");
+				yCoordinate = scanner.nextDouble();
+			}	
+		if (xCoordinate > 0.0 && yCoordinate > 0.0) {
+			System.out.println("Точка находится в I четверти.");
+		} else if (xCoordinate > 0.0 && yCoordinate < 0.0) {
+			System.out.println("Точка находится в IV четверти.");
+		} else if (xCoordinate < 0.0 && yCoordinate < 0.0) {
+			System.out.println("Точка находится в III четверти.");
+		} else if (xCoordinate < 0.0 && yCoordinate > 0.0) {
+			System.out.println("Точка находится в II четверти.");
+		} 
+		
+			
+		
+
+	}
+
+}

@@ -1,0 +1,28 @@
+package modul_3_1;
+
+import java.util.Scanner;
+
+public class Task10 {
+
+	public static void main(String[] args) {
+
+		int appartmentNum, appartmentOnFlor, numberOfApp;
+		 int entranseNum = 0;
+		
+		try (Scanner scanner = new Scanner(System.in)){
+			System.out.print("Введите номер квартиры: ");
+        		appartmentNum = scanner.nextInt();
+        	System.out.print("Введите колличество квартир на этаже: ");
+        		appartmentOnFlor = scanner.nextInt();	
+		}
+		//for (entranseNum = 0; )
+		do {
+			numberOfApp = appartmentOnFlor * 9;
+			entranseNum++;
+		}
+		while (appartmentNum > numberOfApp); 
+		
+		System.out.print("Ваш подъезд №" + entranseNum);
+	}
+	
+}

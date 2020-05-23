@@ -1,0 +1,47 @@
+package modul_3_1;
+
+public class Task05 {
+	public static void main(String[] args)  {
+		int x = 1934;
+				for (;x % 12 == 1;) { 
+					System.out.println("Год Петуха");
+				}
+				for (;x % 12 == 2;) { 
+					System.out.println("Год Cобаки");
+							}
+				for (;x % 12 == 3;) { 
+					System.out.println("Год Cвиньи");
+							}
+				for (;x % 12 == 4;) { 
+					System.out.println("Год Петуха");
+							}
+				for (;x % 12 == 5;) { 
+					System.out.println("Год Петуха");
+							}
+				for (;x % 12 == 6;) { 
+					System.out.println("Год Петуха");
+							}
+				for (;x % 12 == 7;) { 
+					System.out.println("Год Петуха");
+							}
+				for (;x % 12 == 8;) { 
+					System.out.println("Год Петуха");
+							}
+				for (;x % 12 == 9;) { 
+					System.out.println("Год Петуха");
+							}
+				for (;x % 12 == 0;) { 
+					System.out.println("Год Петуха");
+							}
+				for (;x % 12 == 1;) { 
+					System.out.println("Год Петуха");
+							}
+				for (;x % 12 == 1;) { 
+					System.out.println("Год Петуха");
+							}
+				for (;x % 12 == 1;) { 
+					System.out.println("Год Петуха");
+							}
+	}
+
+}

@@ -1,0 +1,10 @@
+package modul_3_1;
+
+public class Task05 {
+	public static void main(String[] args)  {
+		int x = 2020;
+		System.out.println(x%12);
+		
+	}
+
+}
