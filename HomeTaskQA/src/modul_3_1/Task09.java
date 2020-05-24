@@ -9,24 +9,24 @@ public class Task09 {
 		double x1, y1, x2, y2;
 		
 		try (Scanner scanner = new Scanner(System.in)){
-			System.out.print("Введите координаты начала отрезка (x1 y1): ");
+			System.out.print("Р’РІРµРґРёС‚Рµ РєРѕРѕСЂРґРёРЅР°С‚С‹ РЅР°С‡Р°Р»Р° РѕС‚СЂРµР·РєР° (x1 y1): ");
         		x1 = scanner.nextDouble();
         		y1 = scanner.nextDouble();
         		
-        	System.out.print("Введите координаты окончания отрезка (x2 y2): ");
+        	System.out.print("Р’РІРµРґРёС‚Рµ РєРѕРѕСЂРґРёРЅР°С‚С‹ РѕРєРѕРЅС‡Р°РЅРёСЏ РѕС‚СЂРµР·РєР° (x2 y2): ");
         		x2 = scanner.nextDouble();
         		y2 = scanner.nextDouble();
 				}
 		if (y1 < y2 && x1 != x2) {
-			System.out.print("Подъем");
+			System.out.print("РџРѕРґСЉРµРј");
 		} else if (y1 > y2 && x1 != x2) {
-			System.out.print("Спуск");
+			System.out.print("РЎРїСѓСЃРє");
 		} else if (y1 == y2 && x1 != x2) {
-			System.out.print("Ровная дорога");
+			System.out.print("Р РѕРІРЅР°СЏ РґРѕСЂРѕРіР°");
 		} else if (y1 != y2 && x1 == x2) {
-			System.out.print("Отвесная дорога");
+			System.out.print("РћС‚РІРµСЃРЅР°СЏ РґРѕСЂРѕРіР°");
 		} else
-			System.out.print("Отвесная дорога");
+			System.out.print("РћС‚РІРµСЃРЅР°СЏ РґРѕСЂРѕРіР°");
 		
-	}
+	 }
 }

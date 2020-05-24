@@ -7,7 +7,7 @@ public class Task08 {
 	
 		public static void main(String[] args) {
 		    double distanse = (time * speed) / 1000.0;
-	        
-	        System.out.print("Расстояние до места удара молнии " + distanse + " километров");
+	         
+	        System.out.print("Р Р°СЃСЃС‚РѕСЏРЅРёРµ РґРѕ РјРµСЃС‚Р° СѓРґР°СЂР° РјРѕР»РЅРёРё " + distanse + " РєРёР»РѕРјРµС‚СЂРѕРІ");
 	}
 }

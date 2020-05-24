@@ -9,18 +9,18 @@ public class Task07 {
 		char nChar;
 		
 		try (Scanner scanner = new Scanner(System.in)) {
-			System.out.println("¬‚Â‰ËÚÂ ˆËÙÛ, ·ÛÍ‚Û ÛÒÒÍÓ„Ó ËÎË ‡Ì„ÎËÈÒÍÓ„Ó ˇÁ˚Í‡: ");
+			System.out.println("–í–≤–µ–¥–∏—Ç–µ —Ü–∏—Ñ—Ä—É, –±—É–∫–≤—É —Ä—É—Å—Å–∫–æ–≥–æ –∏–ª–∏ –∞–Ω–≥–ª–∏–π—Å–∫–æ–≥–æ —è–∑—ã–∫–∞: ");
 			nChar = scanner.next().trim().charAt(0);
 			}
-		
+		 
 		if( (nChar>='a' && nChar<='z') || (nChar>='A' && nChar<='Z')) {
-		    System.out.println("¡ÛÍ‚‡ Î‡ÚËÌÒÍÓ„Ó ‡ÎÙ‡‚ËÚ‡");
-		} else if( (nChar>='‡' && nChar<='ˇ') || (nChar>='¿' && nChar<='ﬂ')) {
-		    System.out.println("¡ÛÍ‚‡ ÍËËÎË˜ÂÒÍÓ„Ó ‡ÎÙ‡‚ËÚ‡");    
+		    System.out.println("–ë—É–∫–≤–∞ –ª–∞—Ç–∏–Ω—Å–∫–æ–≥–æ –∞–ª—Ñ–∞–≤–∏—Ç–∞");
+		} else if( (nChar>='–∞' && nChar<='—è') || (nChar>='–ê' && nChar<='–Ø')) {
+		    System.out.println("–ë—É–∫–≤–∞ –∫–∏—Ä–∏–ª–∏—á–µ—Å–∫–æ–≥–æ –∞–ª—Ñ–∞–≤–∏—Ç–∞");    
 		}else if( nChar>='0' && nChar<='9') {
-		    System.out.println("÷ËÙ‡");
+		    System.out.println("–¶–∏—Ñ—Ä–∞");
 		} else
-		    System.out.println("ÕÂ‚ÓÁÏÓÊÌÓ ÓÔÂ‰ÂÎËÚ¸");
+		    System.out.println("–ù–µ–≤–æ–∑–º–æ–∂–Ω–æ –æ–ø—Ä–µ–¥–µ–ª–∏—Ç—å");
 		
 	}
 }

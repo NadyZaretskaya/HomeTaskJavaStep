@@ -9,5 +9,5 @@ public class Task03 {
 		
 		int roundN = (int) n;
 			System.out.println(roundN);
-	}
+	} 
 }

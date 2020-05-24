@@ -6,24 +6,24 @@ public class Task10 {
 			    
 	public static void main(String[] args) {
 		
-		double height; //рост
-	    double weight; //вес
-	    double perfectWeight; // идеальный вес
+		double height; //СЂРѕСЃС‚
+	    double weight; //РІРµСЃ
+	    double perfectWeight; // РёРґРµР°Р»СЊРЅС‹Р№ РІРµСЃ
 	       	try (Scanner scanner = new Scanner(System.in)){
-				System.out.println("Укажите Ваш вес в килограммах:");
+				System.out.println("РЈРєР°Р¶РёС‚Рµ Р’Р°С€ РІРµСЃ РІ РєРёР»РѕРіСЂР°РјРјР°С…:");
 	        		weight = scanner.nextDouble();
-	        	System.out.println("Укажите Ваш рост в сантиметрах:");
+	        	System.out.println("РЈРєР°Р¶РёС‚Рµ Р’Р°С€ СЂРѕСЃС‚ РІ СЃР°РЅС‚РёРјРµС‚СЂР°С…:");
 	        	height = scanner.nextDouble();
 	       	}		
 	       	    perfectWeight = height - 110.0;
 	       	    weight -= perfectWeight;
-	       	    
+	       	     
 	       	    if (weight < 0) {
-	       	    	System.out.println("Вам нужно набрать " + Math.abs(weight) + "кг для идеального веса");
+	       	    	System.out.println("Р’Р°Рј РЅСѓР¶РЅРѕ РЅР°Р±СЂР°С‚СЊ " + Math.abs(weight) + "РєРі РґР»СЏ РёРґРµР°Р»СЊРЅРѕРіРѕ РІРµСЃР°");
 	       	    } else if (weight > 0) {
-	       	    	System.out.println("Вам нужно сбросить " + weight + "кг для идеального веса");
+	       	    	System.out.println("Р’Р°Рј РЅСѓР¶РЅРѕ СЃР±СЂРѕСЃРёС‚СЊ " + weight + "РєРі РґР»СЏ РёРґРµР°Р»СЊРЅРѕРіРѕ РІРµСЃР°");
 	       	    } else {
-	       	    	System.out.println("У Вас идеальный вес");
+	       	    	System.out.println("РЈ Р’Р°СЃ РёРґРµР°Р»СЊРЅС‹Р№ РІРµСЃ");
 	       	    }	
 	  }
 }

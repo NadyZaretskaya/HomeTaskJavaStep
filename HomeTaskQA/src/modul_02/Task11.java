@@ -12,7 +12,7 @@ public class Task11 {
 	public static void main(String[] args) {
 		
 		try (Scanner scanner = new Scanner(System.in)) {
-			System.out.println("Сколько секунд осталось до нового года?");
+			System.out.println("РЎРєРѕР»СЊРєРѕ СЃРµРєСѓРЅРґ РѕСЃС‚Р°Р»РѕСЃСЊ РґРѕ РЅРѕРІРѕРіРѕ РіРѕРґР°?");
 			seconds = scanner.nextInt();
 		}
 			int sec, minutes, hours, days;
@@ -21,8 +21,8 @@ public class Task11 {
 			minutes = seconds % secInHour / secInMinute;
 			sec = seconds % secInMinute;
 		
-			System.out.println("До Нового Года осталось " + days + " дней " + hours + " часов " +  minutes + " минут " + sec + " секунд ");
-			
+			System.out.println("Р”Рѕ РќРѕРІРѕРіРѕ Р“РѕРґР° РѕСЃС‚Р°Р»РѕСЃСЊ " + days + " РґРЅРµР№ " + hours + " С‡Р°СЃРѕРІ " +  minutes + " РјРёРЅСѓС‚ " + sec + " СЃРµРєСѓРЅРґ ");
+			 
 	}
 
 }

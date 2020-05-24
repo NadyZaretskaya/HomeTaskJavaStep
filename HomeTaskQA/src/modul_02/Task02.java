@@ -9,5 +9,5 @@ public class Task02 {
         int units = (number - (100*hundreds)) - (dozens*10); //3
         number = hundreds + dozens + units;
         	System.out.println(number);	          	
-	 }
+	 } 
 }

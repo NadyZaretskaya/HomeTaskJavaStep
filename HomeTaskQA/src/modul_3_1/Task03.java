@@ -12,34 +12,34 @@ public class Task03 {
 		int nNumberOfAnimal;
 		
 			try (BufferedReader reader = new BufferedReader(new InputStreamReader(System.in))) {
-				System.out.println(" 1 - кошка\n 2 - собака\n 3 - лев\n 4 - ёж\n 5 - курица\n 6 - тигр\n "
-						+ "7 - поросенок\n 8 - корова\n 9 - лошадь\n 10 - овечка\n Укажите номер интересующего вас животного: ");
+				System.out.println(" 1 - РєРѕС€РєР°\n 2 - СЃРѕР±Р°РєР°\n 3 - Р»РµРІ\n 4 - С‘Р¶\n 5 - РєСѓСЂРёС†Р°\n 6 - С‚РёРіСЂ\n "
+						+ "7 - РїРѕСЂРѕСЃРµРЅРѕРє\n 8 - РєРѕСЂРѕРІР°\n 9 - Р»РѕС€Р°РґСЊ\n 10 - РѕРІРµС‡РєР°\n РЈРєР°Р¶РёС‚Рµ РЅРѕРјРµСЂ РёРЅС‚РµСЂРµСЃСѓСЋС‰РµРіРѕ РІР°СЃ Р¶РёРІРѕС‚РЅРѕРіРѕ: ");
 			sNumberOfAnimal = reader.readLine();
 			nNumberOfAnimal = Integer.parseInt(sNumberOfAnimal);
-			}
+			} 
 			String result;
 			
 			switch (nNumberOfAnimal) {
-	        	case 1: result = "Мяу - мяу";
+	        	case 1: result = "РњСЏСѓ - РјСЏСѓ";
 	        			break;
-	        	case 2:  result = "Гав - гав";
+	        	case 2:  result = "Р“Р°РІ - РіР°РІ";
 	        			break;
 	        	case 3:  
-	        	case 6:  result = "Аррррр";
+	        	case 6:  result = "РђСЂСЂСЂСЂСЂ";
 	        			break;
-	        	case 4:  result = "Пых - пых";
+	        	case 4:  result = "РџС‹С… - РїС‹С…";
 	        			break;
-	        	case 5:  result = "Ко - ко - ко";
+	        	case 5:  result = "РљРѕ - РєРѕ - РєРѕ";
 	        			break;
-	        	case 7:  result = "Хрю - хрю";
+	        	case 7:  result = "РҐСЂСЋ - С…СЂСЋ";
 	        			break;
-	        	case 8:  result = "Муууу";
+	        	case 8:  result = "РњСѓСѓСѓСѓ";
     					break;
-	        	case 9:  result = "Иго-го";
+	        	case 9:  result = "РРіРѕ-РіРѕ";
     					break;
-	        	case 10:  result = "Мееее";
+	        	case 10:  result = "РњРµРµРµРµ";
     					break;
-	        default: result = "Вы ввели не верное число. Попробуйте еще раз.";
+	        default: result = "Р’С‹ РІРІРµР»Рё РЅРµ РІРµСЂРЅРѕРµ С‡РёСЃР»Рѕ. РџРѕРїСЂРѕР±СѓР№С‚Рµ РµС‰Рµ СЂР°Р·.";
 	    	}
 			  	    
 	    System.out.println(result);

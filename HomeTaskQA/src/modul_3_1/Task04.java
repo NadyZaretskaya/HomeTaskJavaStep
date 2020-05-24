@@ -8,31 +8,31 @@ public class Task04 {
 		
 		double xCoordinate;
 		double yCoordinate;
-		
+		 
 		try (Scanner scanner = new Scanner(System.in)){
-			System.out.println("Укажите координату точки по оси Х: ");
+			System.out.println("РЈРєР°Р¶РёС‚Рµ РєРѕРѕСЂРґРёРЅР°С‚Сѓ С‚РѕС‡РєРё РїРѕ РѕСЃРё РҐ: ");
 				xCoordinate = scanner.nextDouble();
-			System.out.println("Укажите координату точки по оси Y: ");
+			System.out.println("РЈРєР°Р¶РёС‚Рµ РєРѕРѕСЂРґРёРЅР°С‚Сѓ С‚РѕС‡РєРё РїРѕ РѕСЃРё Y: ");
 				yCoordinate = scanner.nextDouble();
 			}	
 		if (xCoordinate > 0.0 && yCoordinate > 0.0) {
-			System.out.println("Точка находится в I четверти.");
+			System.out.println("РўРѕС‡РєР° РЅР°С…РѕРґРёС‚СЃСЏ РІ I С‡РµС‚РІРµСЂС‚Рё.");
 		} else if (xCoordinate > 0.0 && yCoordinate < 0.0) {
-			System.out.println("Точка находится в IV четверти.");
+			System.out.println("РўРѕС‡РєР° РЅР°С…РѕРґРёС‚СЃСЏ РІ IV С‡РµС‚РІРµСЂС‚Рё.");
 		} else if (xCoordinate < 0.0 && yCoordinate < 0.0) {
-			System.out.println("Точка находится в III четверти.");
+			System.out.println("РўРѕС‡РєР° РЅР°С…РѕРґРёС‚СЃСЏ РІ III С‡РµС‚РІРµСЂС‚Рё.");
 		} else if (xCoordinate < 0.0 && yCoordinate > 0.0) {
-			System.out.println("Точка находится в II четверти.");
+			System.out.println("РўРѕС‡РєР° РЅР°С…РѕРґРёС‚СЃСЏ РІ II С‡РµС‚РІРµСЂС‚Рё.");
 		} else if (xCoordinate > 0.0 && yCoordinate == 0.0) {
-			System.out.println("Точка находится на оси X между I и IV четвертями.");
+			System.out.println("РўРѕС‡РєР° РЅР°С…РѕРґРёС‚СЃСЏ РЅР° РѕСЃРё X РјРµР¶РґСѓ I Рё IV С‡РµС‚РІРµСЂС‚СЏРјРё.");
 		} else if (xCoordinate < 0.0 && yCoordinate == 0.0) {
-			System.out.println("Точка находится на оси X между II и III четвертями.");
+			System.out.println("РўРѕС‡РєР° РЅР°С…РѕРґРёС‚СЃСЏ РЅР° РѕСЃРё X РјРµР¶РґСѓ II Рё III С‡РµС‚РІРµСЂС‚СЏРјРё.");
 		} else if (xCoordinate == 0.0 && yCoordinate > 0.0) {
-			System.out.println("Точка находится на оси Y между I и II четвертями.");
+			System.out.println("РўРѕС‡РєР° РЅР°С…РѕРґРёС‚СЃСЏ РЅР° РѕСЃРё Y РјРµР¶РґСѓ I Рё II С‡РµС‚РІРµСЂС‚СЏРјРё.");
 		} else if (xCoordinate == 0.0 && yCoordinate < 0.0) {
-			System.out.println("Точка находится на оси Y между III и IV четвертями.");		
+			System.out.println("РўРѕС‡РєР° РЅР°С…РѕРґРёС‚СЃСЏ РЅР° РѕСЃРё Y РјРµР¶РґСѓ III Рё IV С‡РµС‚РІРµСЂС‚СЏРјРё.");		
 		} else 
-			System.out.println("Точка находится на пересечении осей X и Y.");
+			System.out.println("РўРѕС‡РєР° РЅР°С…РѕРґРёС‚СЃСЏ РЅР° РїРµСЂРµСЃРµС‡РµРЅРёРё РѕСЃРµР№ X Рё Y.");
 	}
 
 }

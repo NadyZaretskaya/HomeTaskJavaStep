@@ -7,4 +7,4 @@ public class Task04 {
 			System.out.println(hello);
 	}
 
-}
+} 

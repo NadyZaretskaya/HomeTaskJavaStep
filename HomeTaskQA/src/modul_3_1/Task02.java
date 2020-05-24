@@ -12,23 +12,23 @@ public class Task02 {
 		int nTime;
 		
 		try (BufferedReader reader = new BufferedReader(new InputStreamReader(System.in))) {
-			System.out.println("Укажите время в формате 24ч.: ");
+			System.out.println("РЈРєР°Р¶РёС‚Рµ РІСЂРµРјСЏ РІ С„РѕСЂРјР°С‚Рµ 24С‡.: ");
 		sTime = reader.readLine();
 		nTime = Integer.parseInt(sTime);
 		}
 		
 		if (nTime < 12 && nTime >= 5) {
-			System.out.println ("Доброе утро");
+			System.out.println ("Р”РѕР±СЂРѕРµ СѓС‚СЂРѕ");
 		} else if (nTime >= 12 && nTime < 17) {
-			System.out.println ("Добрый день");
+			System.out.println ("Р”РѕР±СЂС‹Р№ РґРµРЅСЊ");
 		} else if (nTime >= 17 && nTime < 21) {
-			System.out.println ("Добрый вечер");
+			System.out.println ("Р”РѕР±СЂС‹Р№ РІРµС‡РµСЂ");
 		} else if (nTime >= 21 && nTime <= 24) {
-			System.out.println ("Доброй ночи");
+			System.out.println ("Р”РѕР±СЂРѕР№ РЅРѕС‡Рё");
 		} else if (nTime > 0 && nTime < 5) {
-			System.out.println ("Доброй ночи");
+			System.out.println ("Р”РѕР±СЂРѕР№ РЅРѕС‡Рё");
 		} else 
-			System.out.println ("Вы ввели неправильное время. Введите цифру от 1 до 24.");
+			System.out.println ("Р’С‹ РІРІРµР»Рё РЅРµРїСЂР°РІРёР»СЊРЅРѕРµ РІСЂРµРјСЏ. Р’РІРµРґРёС‚Рµ С†РёС„СЂСѓ РѕС‚ 1 РґРѕ 24.");
 	}
-
+ 
 }

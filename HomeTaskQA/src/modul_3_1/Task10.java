@@ -8,12 +8,12 @@ public class Task10 {
 
 		int appartmentNum, appartmentOnFlor;
 		int numberOfApp = 0;
-		 int entranseNum = 0;
+		int entranseNum = 0;
 		
 		try (Scanner scanner = new Scanner(System.in)){
-			System.out.print("Введите номер квартиры: ");
+			System.out.print("Р’РІРµРґРёС‚Рµ РЅРѕРјРµСЂ РєРІР°СЂС‚РёСЂС‹: ");
         		appartmentNum = scanner.nextInt();
-        	System.out.print("Введите колличество квартир на этаже: ");
+        	System.out.print("Р’РІРµРґРёС‚Рµ РєРѕР»Р»РёС‡РµСЃС‚РІРѕ РєРІР°СЂС‚РёСЂ РЅР° СЌС‚Р°Р¶Рµ: ");
         		appartmentOnFlor = scanner.nextInt();	
 		}
 		
@@ -23,7 +23,7 @@ public class Task10 {
 		}
 		while (appartmentNum > numberOfApp); 
 		
-		System.out.print("Ваш подъезд №" + entranseNum);
+		System.out.print("Р’Р°С€ РїРѕРґСЉРµР·Рґ в„–" + entranseNum);
 	}
-	
+	 
 }

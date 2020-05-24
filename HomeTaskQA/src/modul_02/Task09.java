@@ -7,12 +7,12 @@ public class Task09 {
 	public static void main(String[] args) {
 		for (int i = 0; i < num.length; i++) {
 			if (num[i] % 1 == 0) {
-				System.out.println ("×èñëî " + num[i] + " íå èìååò âåùåñòâåííîé ÷àñòè");
+				System.out.println ("Ð§Ð¸ÑÐ»Ð¾ " + num[i] + " Ð½Ðµ Ð¸Ð¼ÐµÐµÑ‚ Ð²ÐµÑ‰ÐµÑÑ‚Ð²ÐµÐ½Ð½Ð¾Ð¹ Ñ‡Ð°ÑÑ‚Ð¸");
 				continue;
 			}
-			System.out.println ("×èñëî " + num[i] + " èìååò âåùåñòâåííóþ ÷àñòü");
+			System.out.println ("Ð§Ð¸ÑÐ»Ð¾ " + num[i] + " Ð¸Ð¼ÐµÐµÑ‚ Ð²ÐµÑ‰ÐµÑÑ‚Ð²ÐµÐ½Ð½ÑƒÑŽ Ñ‡Ð°ÑÑ‚ÑŒ");
 		}
-
+ 
 	}
 
 }

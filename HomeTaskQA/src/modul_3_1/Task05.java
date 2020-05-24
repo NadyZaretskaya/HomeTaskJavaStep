@@ -6,25 +6,23 @@ public class Task05 {
 	
 		static int day, month, year;
 		static String result;
-		static String result1;
-		private static String [] animals = {"Обезьяны","Петуха","Собаки","Свиньи","Крысы","Быка",
-                "Тигра","Зайца","Дракона","Змеи","Лошади","Козы"};
+		private static String [] animals = {"РћР±РµР·СЊСЏРЅС‹","РџРµС‚СѓС…Р°","РЎРѕР±Р°РєРё","РЎРІРёРЅСЊРё","РљСЂС‹СЃС‹","Р‘С‹РєР°",
+                "РўРёРіСЂР°","Р—Р°Р№С†Р°","Р”СЂР°РєРѕРЅР°","Р—РјРµРё","Р›РѕС€Р°РґРё","РљРѕР·С‹"};
 	
 		public static void main(String[] args)  {
-			
+			 
 			try (Scanner scanner = new Scanner(System.in)){
-				System.out.println("Укажите свою дату рождения в дормте ДД ММ ГГГГ:");
+				System.out.println("РЈРєР°Р¶РёС‚Рµ СЃРІРѕСЋ РґР°С‚Сѓ СЂРѕР¶РґРµРЅРёСЏ РІ РґРѕСЂРјР°С‚Рµ Р”Р” РњРњ Р“Р“Р“Р“:");
 	        		day = scanner.nextInt();
 	        		month = scanner.nextInt();
 	        		year = scanner.nextInt();
 	        	   	}		
 					
-			System.out.println("Вывод:");
-			System.out.println("Знак: " + getNameOfZodiak(month));
-			System.out.println("Год: " + getNameOfAnimal(year));
+			System.out.println("Р’С‹РІРѕРґ:");
+			System.out.println("Р—РЅР°Рє: " + getNameOfZodiak(month));
+			System.out.println("Р“РѕРґ: " + getNameOfAnimal(year));
 		}
-		
-		
+				
 		private static String getNameOfAnimal(int yaer) {
 	        return animals [yaer % animals.length];
 		}
@@ -32,54 +30,54 @@ public class Task05 {
 		private static String getNameOfZodiak(int month) {
 			switch (month) {
 	    	case 1: if (day < 20) {
-	    		result = "Козерог";
-	    	} else result = "Водолей";
+	    		result = "РљРѕР·РµСЂРѕРі";
+	    	} else result = "Р’РѕРґРѕР»РµР№";
 	    			break;
 	    	case 2: if (day < 19) {
-	    		result = "Водолей";
-	    	} else result = "Рыба";
+	    		result = "Р’РѕРґРѕР»РµР№";
+	    	} else result = "Р С‹Р±Р°";
 	    			break;
 	    	case 3: if (day < 21) {
-	    		result = "Рыба";
-	    	} else result = "Овен";
+	    		result = "Р С‹Р±Р°";
+	    	} else result = "РћРІРµРЅ";
 	    			break;
 	    	case 4: if (day < 20) {
-	    		result = "Овен";
-	    	} else result = "Телец";
+	    		result = "РћРІРµРЅ";
+	    	} else result = "РўРµР»РµС†";
 	    			break;
 	    	case 5: if (day < 21) {
-	    		result = "Телец";
-	    	} else result = "Близнецы";
+	    		result = "РўРµР»РµС†";
+	    	} else result = "Р‘Р»РёР·РЅРµС†С‹";
 	    			break;
 	    	case 6: if (day < 21) {
-	    		result = "Близнецы";
-	    	} else result = "Рак";
+	    		result = "Р‘Р»РёР·РЅРµС†С‹";
+	    	} else result = "Р Р°Рє";
 	    			break;
 	    	case 7: if (day < 23) {
-	    		result = "Рак";
-	    	} else result = "Лев";
+	    		result = "Р Р°Рє";
+	    	} else result = "Р›РµРІ";
 	    			break;
 	    	case 8: if (day < 23) {
-	    		result = "Лев";
-	    	} else result = "Дева";
+	    		result = "Р›РµРІ";
+	    	} else result = "Р”РµРІР°";
 	    			break;
 	    	case 9: if (day < 23) {
-	    		result = "Дева";
-	    	} else result = "Весы";
+	    		result = "Р”РµРІР°";
+	    	} else result = "Р’РµСЃС‹";
 	    			break;
 	    	case 10: if (day < 23) {
-	    		result = "Весы";
-	    	} else result = "Скорпионй";
+	    		result = "Р’РµСЃС‹";
+	    	} else result = "РЎРєРѕСЂРїРёРѕРЅР№";
 	    			break;
 	    	case 11: if (day < 22) {
-	    		result = "Скорпион";
-	    	} else result = "Стрелец";
+	    		result = "РЎРєРѕСЂРїРёРѕРЅ";
+	    	} else result = "РЎС‚СЂРµР»РµС†";
 	    			break;
 	    	case 12: if (day < 22) {
-	    		result = "Стрелец";
-	    	} else result = "Козерог";
+	    		result = "РЎС‚СЂРµР»РµС†";
+	    	} else result = "РљРѕР·РµСЂРѕРі";
 	    			break;
-	    default: result = "Вы ввели не верный месяц или день.";
+	    default: result = "Р’С‹ РІРІРµР»Рё РЅРµ РІРµСЂРЅС‹Р№ РјРµСЃСЏС† РёР»Рё РґРµРЅСЊ.";
 		}
 			return result;
 	}

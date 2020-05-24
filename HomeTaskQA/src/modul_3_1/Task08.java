@@ -8,9 +8,9 @@ public class Task08 {
 		
 		double x;
 		double y;
-		
+		 
 		try (Scanner scanner = new Scanner(System.in)){
-			System.out.print("Укажите два числа (через пробел): ");
+			System.out.print("РЈРєР°Р¶РёС‚Рµ РґРІР° С‡РёСЃР»Р° (С‡РµСЂРµР· РїСЂРѕР±РµР»): ");
         		x = scanner.nextDouble();
         		y = scanner.nextDouble();
 			}

@@ -9,38 +9,31 @@ public class Task12 {
 		int puples;
 		int pie;
 		double milk;
-		double lightweightPerсent;
+		double lightweightPerСЃent;
 		double lightweightPuples;
 		
 		try (Scanner scanner = new Scanner(System.in)){
-				System.out.println("Укажите колличество первоклассников:");
-	        		puples = scanner.nextInt();
-	        	System.out.println("Укажите процент детей, вес которых менее 30 кг.:");
-	        		lightweightPerсent = scanner.nextInt();	
-		}
-		
-		lightweightPuples = (puples * lightweightPerсent) / 100;
-		lightweightPuples = Math.ceil(lightweightPuples);
-		
-		System.out.println("Колличество учеников, чей вес меньше 30 кг.: " + lightweightPuples + "человек");	
 			
-		pie = (int)(puples + lightweightPuples);
-		milk = (lightweightPuples * 0.2) / 0.9;
+			for (int i = 0; i < 3; i++) {
+				
+				System.out.println("РЈРєР°Р¶РёС‚Рµ РєРѕР»Р»РёС‡РµСЃС‚РІРѕ РїРµСЂРІРѕРєР»Р°СЃСЃРЅРёРєРѕРІ:");
+	        		puples = scanner.nextInt();
+	        	System.out.println("РЈРєР°Р¶РёС‚Рµ РїСЂРѕС†РµРЅС‚ РґРµС‚РµР№, РІРµСЃ РєРѕС‚РѕСЂС‹С… РјРµРЅРµРµ 30 РєРі.:");
+	        		lightweightPerСЃent = scanner.nextInt();	
+	        		
+	        		lightweightPuples = (puples * lightweightPerСЃent) / 100;
+	        		lightweightPuples = Math.ceil(lightweightPuples);
 		
-		System.out.println("Колличество пирожков: " + pie + " шт.");
-		System.out.println("Колличество бутылок молока: " + Math.ceil(milk) + " шт");
-		
+	        	System.out.println("РљРѕР»Р»РёС‡РµСЃС‚РІРѕ СѓС‡РµРЅРёРєРѕРІ, С‡РµР№ РІРµСЃ РјРµРЅСЊС€Рµ 30 РєРі.: " + lightweightPuples + "С‡РµР»РѕРІРµРє");	
+			
+	        		pie = (int)(puples + lightweightPuples);
+	        		milk = (lightweightPuples * 0.2) / 0.9;
+		 
+	        	System.out.println("РљРѕР»Р»РёС‡РµСЃС‚РІРѕ РїРёСЂРѕР¶РєРѕРІ: " + pie + " С€С‚.");
+	        	System.out.println("РљРѕР»Р»РёС‡РµСЃС‚РІРѕ Р±СѓС‚С‹Р»РѕРє РјРѕР»РѕРєР°: " + Math.ceil(milk) + " С€С‚");
+	        	System.out.println("\n" + "***" + "\n");
+				}
 			}
-		
+		}
 	}
-	/*Ученикам первого класса дают 1 пирожок. Если вес первоклассника менее 30 кг, дополнительно дают 1 стакан молока и ещё 1 пирожок. В первых классах школы учится n
-учеников. Стакан молока имеет емкость 200 мл, а упаковка
-молока – 0,9 л.
-Написать программу, которая определит количество пакетов молока и пирожков, необходимых каждый день для
-условий:
- - если в школе 100% всех учеников, у которых вес меньше
-30 кг;
- - если в школе 60% учеников имеют вес меньше 30 кг.
-- если в школе 1% учеников имеют вес меньше 30 кг.
-(!!!) Учесть, что нельзя купить два с половиной пакета
-молока; можно купить два или три. */
+	

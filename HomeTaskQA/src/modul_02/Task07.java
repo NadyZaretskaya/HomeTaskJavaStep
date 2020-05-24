@@ -13,7 +13,7 @@ public class Task07 {
 			summaF += summaF * proc;
 			n++;
 		} while (n < srok);
-			System.out.println("Ñóììà âêëàäà ÷åðåç äâà ãîäà ñîñòàâèò " + summaF);
+			System.out.println("Ð¡ÑƒÐ¼Ð¼Ð° Ð²ÐºÐ»Ð°Ð´Ð° Ñ‡ÐµÑ€ÐµÐ· Ð´Ð²Ð° Ð³Ð¾Ð´Ð° ÑÐ¾ÑÑ‚Ð°Ð²Ð¸Ñ‚ " + summaF);
 	}
-
+ 
 }

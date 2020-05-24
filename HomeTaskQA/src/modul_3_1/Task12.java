@@ -8,15 +8,15 @@ public class Task12 {
 				
 		int ticketNum;
 		try (Scanner scanner = new Scanner(System.in)){
-			System.out.print("Введите номер билета: ");
+			System.out.print("Р’РІРµРґРёС‚Рµ РЅРѕРјРµСЂ Р±РёР»РµС‚Р°: ");
         		ticketNum = scanner.nextInt();
         	}
 		
 		if (ticketNum / 100000 + (ticketNum / 10000) % 10 + (ticketNum / 1000) % 10 == 
 				(ticketNum / 100) % 10 + (ticketNum / 10) % 10 + ticketNum % 10) {
-			System.out.print("Ваш билет счастливый!");
+			System.out.print("Р’Р°С€ Р±РёР»РµС‚ СЃС‡Р°СЃС‚Р»РёРІС‹Р№!");
 		} else
-			System.out.print("Ваш билет не счастливый. Вам повезет в следующий раз!");
+			System.out.print("Р’Р°С€ Р±РёР»РµС‚ РЅРµ СЃС‡Р°СЃС‚Р»РёРІС‹Р№. Р’Р°Рј РїРѕРІРµР·РµС‚ РІ СЃР»РµРґСѓСЋС‰РёР№ СЂР°Р·!");
 	}
-
+ 
 }

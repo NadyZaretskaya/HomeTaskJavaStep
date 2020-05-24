@@ -12,28 +12,28 @@ public class Task01 {
 		int nNumber;
 		
 			try (BufferedReader reader = new BufferedReader(new InputStreamReader(System.in))) {
-				System.out.println("Укажите порядковый номер дня недели (где 1 - Понедельник, а 7 - Воскресенье): ");
+				System.out.println("РЈРєР°Р¶РёС‚Рµ РїРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РґРЅСЏ РЅРµРґРµР»Рё (РіРґРµ 1 - РџРѕРЅРµРґРµР»СЊРЅРёРє, Р° 7 - Р’РѕСЃРєСЂРµСЃРµРЅСЊРµ): ");
 			sNumber = reader.readLine();
 			nNumber = Integer.parseInt(sNumber);
-			}
+			} 
 		String result;
 		
 			switch (nNumber) {
-	        	case 1: result = "Понедельник";
+	        	case 1: result = "РџРѕРЅРµРґРµР»СЊРЅРёРє";
 	        			break;
-	        	case 2:  result = "Вторник";
+	        	case 2:  result = "Р’С‚РѕСЂРЅРёРє";
 	        			break;
-	        	case 3:  result = "Среда";
+	        	case 3:  result = "РЎСЂРµРґР°";
 	        			break;
-	        	case 4:  result = "Четверг";
+	        	case 4:  result = "Р§РµС‚РІРµСЂРі";
 	        			break;
-	        	case 5:  result = "Пятница";
+	        	case 5:  result = "РџСЏС‚РЅРёС†Р°";
 	        			break;
-	        	case 6:  result = "Суббота";
+	        	case 6:  result = "РЎСѓР±Р±РѕС‚Р°";
 	        			break;
-	        	case 7:  result = "Воскресенье";
+	        	case 7:  result = "Р’РѕСЃРєСЂРµСЃРµРЅСЊРµ";
 	        			break;
-	        default: result = "Вы ввели не верное число. Попробуйте еще раз.";
+	        default: result = "Р’С‹ РІРІРµР»Рё РЅРµ РІРµСЂРЅРѕРµ С‡РёСЃР»Рѕ. РџРѕРїСЂРѕР±СѓР№С‚Рµ РµС‰Рµ СЂР°Р·.";
 	    	}
 			  	    
 	    System.out.println(result);

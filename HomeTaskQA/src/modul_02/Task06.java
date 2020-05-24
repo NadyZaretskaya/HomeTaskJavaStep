@@ -9,7 +9,7 @@ public class Task06 {
 		double area = height * width;
 		System.out.println(perimeter);
 		System.out.println(area);
-
+ 
 	}
 
 }

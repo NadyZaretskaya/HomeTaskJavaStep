@@ -13,30 +13,30 @@ public class Task06 {
 		int nYear;
 			
 		try (BufferedReader reader = new BufferedReader(new InputStreamReader(System.in))) {
-			System.out.println(" Введите год: ");
+			System.out.println(" Р’РІРµРґРёС‚Рµ РіРѕРґ: ");
 		sYear = reader.readLine();
 		nYear = Integer.parseInt(sYear);
 		} 
-		
+		 
 		GregorianCalendar gcalendar = new GregorianCalendar();
 		
 		  if(gcalendar.isLeapYear(nYear)) {
-		         System.out.println("В этом году 366 дней");
+		         System.out.println("Р’ СЌС‚РѕРј РіРѕРґСѓ 366 РґРЅРµР№");
 		      }else {
-		         System.out.println("В этом году 365 дней");
+		         System.out.println("Р’ СЌС‚РѕРј РіРѕРґСѓ 365 РґРЅРµР№");
 		      }
 		  
 		/* if (nYear % 100 == 0 && nYear % 400 == 0 )
-            System.out.println("В этом году 366 дней");
+            System.out.println("Р’ СЌС‚РѕРј РіРѕРґСѓ 366 РґРЅРµР№");
 
         else if (nYear % 4 == 0 && nYear % 100 > 0)
-            System.out.println("В этом году 366 дней");
+            System.out.println("Р’ СЌС‚РѕРј РіРѕРґСѓ 366 РґРЅРµР№");
 
         else if (nYear % 100 == 0)
-            System.out.println("В этом году 365 дней");
+            System.out.println("Р’ СЌС‚РѕРј РіРѕРґСѓ 365 РґРЅРµР№");
 
         else
-            System.out.println("В этом году 365 дней"); */
+            System.out.println("Р’ СЌС‚РѕРј РіРѕРґСѓ 365 РґРЅРµР№"); */
 
 	}
 
